@@ -4,7 +4,7 @@ function preload(){
     moustache=loadImage("https://i.postimg.cc/KjsN2jpg/crown-removebg-preview.png");
 }
 function home(){
-    window.location="home.html"
+    window.location="index.html"
 }
 function setup(){
     canvas=createCanvas(300,300);

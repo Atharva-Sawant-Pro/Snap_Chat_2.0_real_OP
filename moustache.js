@@ -1,7 +1,7 @@
 noseX=0;
 noseY=0;
 function preload(){
-    moustache=loadImage("https://i.postimg.cc/SRfd4y0N/images.png");
+    moustache=loadImage("https://i.postimg.cc/Jhc65cn2/moustache.png");
 }
 function home(){
     window.location="index.html"
@@ -20,7 +20,7 @@ function gotPoses(results){
         console.log(results);
         noseX=results[0].pose.nose.x-50;
         console.log("noseX="+noseX);
-        noseY=results[0].pose.nose.y-75;
+        noseY=results[0].pose.nose.y-25;
         console.log("noseY="+noseY);
     }
     
